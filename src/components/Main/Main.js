@@ -9,10 +9,10 @@ import Contact from "../Contact/Contact"
 const Main = () => (
     <Switch>
         <Route exact path="/" component={Landing} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/contact" component={Contact} />
     </Switch>
 );
 
