@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Layout, Header, Drawer, Navigation, Content } from "react-mdl";
+import Main from "./components/Main/Main";
 import './App.css';
 
 class App extends Component {
