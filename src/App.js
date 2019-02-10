@@ -10,22 +10,22 @@ class App extends Component {
         <Layout>
           <Header title="Ryan C Mok" scroll>
             <Navigation>
-              <a href="/">Resume</a>
-              <a href="/">About Me</a>
-              <a href="/">Projects</a>
-              <a href="/">Contact</a>
+              <a href="/resume">Resume</a>
+              <a href="/about">About Me</a>
+              <a href="/projects">Projects</a>
+              <a href="/contact">Contact</a>
             </Navigation>
           </Header>
           <Drawer title="Ryan C Mok">
             <Navigation>
-              <a href="/">Resume</a>
-              <a href="/">About Me</a>
-              <a href="/">Projects</a>
-              <a href="/">Contact</a>
+              <a href="/resume">Resume</a>
+              <a href="/about">About Me</a>
+              <a href="/projects">Projects</a>
+              <a href="/contact">Contact</a>
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
+            <Main />
           </Content>
         </Layout>
       </div>
