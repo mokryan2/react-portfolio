@@ -7,7 +7,12 @@ class Landing extends Component {
         return (
             <div className="main">
                 <Grid className="landing-grid">
-                <Cell col={12}></Cell>
+                    <Cell col={12}></Cell>
+                    <img
+                        src="/images/me.jpg"
+                        alt="That's me!"
+                        className="my-face"
+                    />
                 </Grid>
             </div>
         );
