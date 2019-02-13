@@ -4,7 +4,32 @@
   background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.my-face{
+.crop{
+  width: 150px;
   height: 150px;
-  padding-top: 5em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.my-face{
+  display: inline;
+  margin: 0 auto;
+  margin-left: -38%;
+  height: 100%;
+  width: auto;
+}
+
+.text-heading{
+  margin: auto;
+  background-color: gray;
+  opacity: 0.8;
+  width:75%;
+  border-radius: 15px;
+}
+
+.text-heading h1{
+  font-size: 58px;
+  font-weight: bold;
+  color: white
 }
