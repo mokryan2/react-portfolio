@@ -11,8 +11,8 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div>
-                    <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover' }}>Welcome</CardTitle>
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Kirby.PNG) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -62,7 +62,7 @@ class Projects extends Component {
                 </Tabs>
 
                 <Grid className="project-grid">
-                    <Cell>
+                    <Cell col={12}>
                         {this.toggleSection()}
                     </Cell>
                 </Grid>
