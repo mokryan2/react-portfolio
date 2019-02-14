@@ -7,6 +7,16 @@ class Projects extends Component {
         this.state = { activeTab: 0 };
     }
 
+    toggleSection() {
+        if (this.state.activeTab === 0) {
+            return (
+                <div>
+                    <h1>These are for React!</h1>
+                </div>
+            )
+        }
+    }
+
     render() {
         return (
             <div className="tabs">
@@ -20,6 +30,10 @@ class Projects extends Component {
                     <Tab>Node.js</Tab>
                     <Tab>MongoDB</Tab>
                 </Tabs>
+
+                <section className="project-grid">
+                    {this.toggleSection()}                
+                    </section>
             </div>
         );
     };
