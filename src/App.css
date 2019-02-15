@@ -77,11 +77,14 @@
   padding: 10px
 }
 
-h5{
-  color:black;
-  text-decoration: underline;
-}
 
 .project-grid{
   display: flex;
 }
+
+.project-grid h5{
+  color:black;
+  text-decoration: underline;
+  margin: auto;
+}
+

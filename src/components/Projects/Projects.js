@@ -18,8 +18,12 @@ class Projects extends Component {
                             Kirby sure has a lot of powers...Think you can keep track of them all?
                         </CardText>
                         <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/Clicky-Game" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
+                            <Button colored>
+                                <a href="https://kirby-memory-game.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a>
+                            </Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -30,10 +34,12 @@ class Projects extends Component {
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/CCSS.PNG) center / cover' }} />
                         <CardText>
                             <h5>CCSS</h5>
-                            Kirby sure has a lot of forms...Think you can keep track of them all?
+                            Chicago's community can be difficult to maneuver, but it doesn't have to be!
                         </CardText>
                         <CardActions border>
-                            <Button colored>github</Button>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/ccss" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
