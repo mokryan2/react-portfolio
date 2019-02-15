@@ -76,3 +76,12 @@
   font-size: 5em;
   padding: 10px
 }
+
+h5{
+  color:black;
+  text-decoration: underline;
+}
+
+.project-grid{
+  display: flex;
+}

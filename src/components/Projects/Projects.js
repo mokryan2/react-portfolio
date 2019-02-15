@@ -10,15 +10,31 @@ class Projects extends Component {
     toggleSection() {
         if (this.state.activeTab === 0) {
             return (
-                <div>
+                <div className="project-grid">
                     <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Kirby.PNG) center / cover' }}>Welcome</CardTitle>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Kirby.PNG) center / cover' }} />
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            <h5>Kirby Memory Game</h5>
+                            Kirby sure has a lot of powers...Think you can keep track of them all?
                         </CardText>
                         <CardActions border>
-                            <Button colored>Get Started</Button>
+                            <Button colored>github</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/CCSS.PNG) center / cover' }} />
+                        <CardText>
+                            <h5>CCSS</h5>
+                            Kirby sure has a lot of forms...Think you can keep track of them all?
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>github</Button>
+                            <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -61,9 +77,11 @@ class Projects extends Component {
                     <Tab>Node.js</Tab>
                 </Tabs>
 
-                <Grid className="project-grid">
+                <Grid>
                     <Cell col={12}>
-                        {this.toggleSection()}
+                        <div className="projects">
+                            {this.toggleSection()}
+                        </div>
                     </Cell>
                 </Grid>
             </div>
