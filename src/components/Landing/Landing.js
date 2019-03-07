@@ -10,7 +10,7 @@ class Landing extends Component {
                     <Cell col={12}>
                         <div className="crop">
                             <img
-                                src="/images/me.jpg"
+                                src="/images/resized.jpg"
                                 alt="That's me!"
                                 className="my-face"
                             />

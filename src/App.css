@@ -24,13 +24,13 @@
   height: 275px;
   position: relative;
   overflow: hidden;
-  border-radius: 45%;
+  /* border-radius: 45%; */
 }
 
 .my-face {
   display: inline;
   margin: 0 auto;
-  margin-left: -22%;
+  /* margin-left: -22%; */
   height: 100%;
   width: auto;
 }
