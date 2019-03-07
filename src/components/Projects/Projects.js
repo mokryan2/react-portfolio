@@ -40,7 +40,8 @@ class Projects extends Component {
                             <Button colored>
                                 <a href="https://github.com/mokryan2/ccss" rel="noopener noreferrer" target="_blank">github</a>
                             </Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored>
+                                <a href="https://chicago-community-skill-share.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
