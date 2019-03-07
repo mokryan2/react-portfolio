@@ -20,17 +20,17 @@
 .crop {
   margin: 5% auto;
   margin-bottom: 0%;
-  width: 200px;
-  height: 200px;
+  width: 275px;
+  height: 275px;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 45%;
 }
 
 .my-face {
   display: inline;
   margin: 0 auto;
-  margin-left: -38%;
+  margin-left: -22%;
   height: 100%;
   width: auto;
 }
