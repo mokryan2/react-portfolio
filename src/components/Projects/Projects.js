@@ -58,7 +58,23 @@ class Projects extends Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <div>
-                    <h1>These are for MongoDB</h1>
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/NPRScraper.PNG) center / cover' }} />
+                        <CardText>
+                            <h5>NPR News Scraper</h5>
+                            Scrape news articles from the NPR website. You can also save and leave notes on saved articles as well!
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/MongoNewsScraper" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
+                            <Button colored>
+                                <a href="https://mokryan2-mongo-scraper.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 3) {
