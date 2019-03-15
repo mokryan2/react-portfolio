@@ -79,8 +79,38 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 3) {
             return (
-                <div>
-                    <h1>These are for Node.js</h1>
+                <div className="project-grid">
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/tech/node.png) center / cover' }} />
+                        <CardText>
+                            <h5>AmazonesqueDB</h5>
+                            Run a store with Node.JS! This requires MySQL to be properly run!
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/AmazonesqueDB" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/tech/node.png) center / cover' }} />
+                        <CardText>
+                            <h5>LIRI-Node-App</h5>
+                            It's like Siri, but it's LIRI! Follow the instructions to look up songs and movies!
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/LIRI-node-app" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
                 </div>
             )
         }
@@ -96,7 +126,7 @@ class Projects extends Component {
                 >
                     <Tab>React</Tab>
                     <Tab>JavaScript/jQuery</Tab>
-                    <Tab>MongoDB</Tab>
+                    <Tab>MongoDB/MySQL</Tab>
                     <Tab>Node.js</Tab>
                 </Tabs>
 
