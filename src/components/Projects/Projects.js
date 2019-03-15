@@ -57,12 +57,12 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <div>
+                <div className="project-grid">
                     <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/NPRScraper.PNG) center / cover' }} />
                         <CardText>
                             <h5>NPR News Scraper</h5>
-                            Scrape news articles from the NPR website. You can also save and leave notes on saved articles as well!
+                            Scrape news articles from the NPR website. You can save and leave notes on articles as well!
                         </CardText>
                         <CardActions border>
                             <Button colored>
