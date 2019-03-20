@@ -52,7 +52,7 @@ class Projects extends Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <div className="project-grid">
-                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                    <Card shadow={5} style={{ minWidth: '300px', margin: 'auto' }}>
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/GIPHY.PNG) center / cover' }} />
                         <CardText>
                             <h5>Character Giphy</h5>
@@ -69,7 +69,8 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+
+                    <Card shadow={5} style={{ minWidth: '300px', margin: 'auto' }}>
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Trivia.PNG) center / cover' }} />
                         <CardText>
                             <h5>Trivia Game</h5>
@@ -86,7 +87,8 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+
+                    <Card shadow={5} style={{ minWidth: '300px', margin: 'auto' }}>
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Crystal.PNG) center / cover' }} />
                         <CardText>
                             <h5>Crystal Collector</h5>
@@ -103,7 +105,8 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+
+                    <Card shadow={5} style={{ minWidth: '300px', margin: 'auto' }}>
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Psychic.PNG) center / cover' }} />
                         <CardText>
                             <h5>Psychic Letter Game</h5>

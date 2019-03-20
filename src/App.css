@@ -80,6 +80,7 @@
 
 .project-grid{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-grid h5{
