@@ -51,8 +51,24 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div>
-                    <h1>These are for JavaScript/jQuery</h1>
+                <div className="project-grid">
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Psychic.PNG) center / cover' }} />
+                        <CardText>
+                            <h5>Psychic Letter Game</h5>
+                            Try and guess what letter the computer is thinking of!
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/Psychic-Game" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
+                            <Button colored>
+                                <a href="https://mokryan2.github.io/Psychic-Game/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 2) {
