@@ -53,17 +53,17 @@ class Projects extends Component {
             return (
                 <div className="project-grid">
                     <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
-                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Psychic.PNG) center / cover' }} />
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Trivia.PNG) center / cover' }} />
                         <CardText>
-                            <h5>Psychic Letter Game</h5>
-                            Try and guess what letter the computer is thinking of!
+                            <h5>Trivia Game</h5>
+                            THink you know classic video games? Lets find out!
                         </CardText>
                         <CardActions border>
                             <Button colored>
-                                <a href="https://github.com/mokryan2/Psychic-Game" rel="noopener noreferrer" target="_blank">github</a>
+                                <a href="https://github.com/mokryan2/TriviaGame" rel="noopener noreferrer" target="_blank">github</a>
                             </Button>
                             <Button colored>
-                                <a href="https://mokryan2.github.io/Psychic-Game/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+                                <a href="https://mokryan2.github.io/TriviaGame/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
