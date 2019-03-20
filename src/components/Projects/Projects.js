@@ -53,10 +53,27 @@ class Projects extends Component {
             return (
                 <div className="project-grid">
                     <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
+                        <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/GIPHY.PNG) center / cover' }} />
+                        <CardText>
+                            <h5>Character Giphy</h5>
+                            Who doesn't love a GIF? Click one of existing buttons, or add your own!
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>
+                                <a href="https://github.com/mokryan2/Giphy" rel="noopener noreferrer" target="_blank">github</a>
+                            </Button>
+                            <Button colored>
+                                <a href="https://mokryan2.github.io/Giphy/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    <Card shadow={5} style={{ minWidth: '350px', margin: 'auto' }}>
                         <CardTitle style={{ height: "176px", background: 'url(https://mokryan2.github.io/Portfolio/assets/images/portfolio/Trivia.PNG) center / cover' }} />
                         <CardText>
                             <h5>Trivia Game</h5>
-                            THink you know classic video games? Lets find out!
+                            Think you know classic video games? Lets find out!
                         </CardText>
                         <CardActions border>
                             <Button colored>
