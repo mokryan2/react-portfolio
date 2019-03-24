@@ -77,10 +77,10 @@
   padding: 10px
 }
 
-
 .project-grid{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 5px;
 }
 
 .project-grid h5{
